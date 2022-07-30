@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:src="@drawable/ttt"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/reset_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview">
+
+        <TableLayout
+            android:id="@+id/glGameBoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="17dp"
+            android:columnCount="3"
+            android:padding="8dp"
+            android:rowCount="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints,UselessParent">
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="0"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="1"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="2"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="3"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="4"
+
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+
+                    android:tag="5"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+            </TableRow>
+
+            <TableRow>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+
+                    android:tag="6"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="7"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/roundbutton"
+                    android:gravity="center"
+                    android:onClick="PlayerTap"
+                    android:tag="8"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/reset_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/roundcornerbutton"
+        android:text="@string/reset"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:autoSizeTextType="uniform"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp"
+        android:textSize="40sp"
+        android:onClick="reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:ignore="UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>

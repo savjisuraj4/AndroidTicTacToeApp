@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".StartActivty">
+
+
+    <ImageView
+        android:id="@+id/tictactoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f631e469631277_5b87e7ef3ced6_removebg_preview"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_b"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/roundcornerbutton"
+        android:drawableEnd="@drawable/ic_baseline_play_circle_outline_24"
+        android:paddingEnd="45sp"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tictactoe"
+        tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/two_player"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/roundcornerbutton"
+        android:text="@string/two_player"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_b"
+        tools:ignore="RtlSymmetry,UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>
