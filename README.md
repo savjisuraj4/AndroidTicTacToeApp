@@ -1,4 +1,4 @@
-# Android_Tic_Tac_Toe_Application
+# Android Tic Tac Toe Application
 
 
 ## Introduction
