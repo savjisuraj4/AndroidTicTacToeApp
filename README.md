@@ -1,9 +1,9 @@
 # Android_Tic_Tac_Toe_Application
 
 
-#Introduction
+##Introduction
 
-	This is a android application created for Entertainment purpose using animation and android studio.In this application user can play with computer or with the other the player also.This application is user friendly and as the rule of <b>TIC TAC TOE</b> when three images appear accross the line may be horizontally,vertically or diagonally the images will start blink and at last winner window will displayed.
+This is a android application created for Entertainment purpose using animation and android studio.In this application user can play with computer or with the other the player also.This application is user friendly and as the rule of <b>TIC TAC TOE</b> when three images appear accross the line may be horizontally,vertically or diagonally the images will start blink and at last winner window will displayed.
 	
 <br>There are four Activities in the app :<br>
 <ol>
