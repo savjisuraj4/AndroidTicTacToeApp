@@ -24,6 +24,7 @@ This is a android application created for Entertainment purpose using animation 
 	<img src="/4.jpeg" width = "200" height= "350" hspace=40>
 </p>
 
-<video width="320" height="240" autoplay>
-  <source src="Tic Tac Toe Video - Made with Clipchamp (2).mp4" type="video/mp4">
-</video>
+
+
+https://user-images.githubusercontent.com/98837139/182014563-83596975-a524-4925-b50a-056159ff8abc.mp4
+
