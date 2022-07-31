@@ -18,8 +18,8 @@ This is a android application created for Entertainment purpose using animation 
 ## Sreenshot
 
 <p id="img_cont">
-	<img src="/1.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/2.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/3.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/4.jpeg" width = "200" height= "350" hspace=40>
+	<img src="1.jpeg" width = "200" height= "350" hspace=40>
+	<img src="2.jpeg" width = "200" height= "350" hspace=40>
+	<img src="3.jpeg" width = "200" height= "350" hspace=40>
+	<img src="4.jpeg" width = "200" height= "350" hspace=40>
 </p>
